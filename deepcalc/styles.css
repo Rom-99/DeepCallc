@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.registration-container {
+    background: #282828;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.registration-frame {
+    border: solid 3px #ffff;
+
+}
+
+.registration-title {
+    color: wheat;
+    margin-bottom: 30px;
+    background: #282828;
+    padding: 40px 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.camera-svg {
+    border-radius: 40%;
+    background: wheat;
+    border: 3px solid black;
+}
+
+.registration-text {
+    color: #fff;
+}
+
+.registration-form-indent {
+    color: wheat;
+}
+
+.registration-input-adress {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background: #282828;
+    margin: 15px;
+    color: #FFFFFF;
+}
+
+.registration-input-adress:focus {
+    color: rgb(233, 180, 82);
+}
+
+.registration-input-adress::placeholder {
+    color: #fff;
+    border-color: #FFFFFF;
+}
+
+.registration-button {
+    background: #282828;
+    border: solid #FFFFFF 2px;
+    width: 50%;
+    margin: 20px 0;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    color: #ffff;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.registration-button:hover {
+    box-shadow: 0px, 1px 5px;
+    background-color: rgb(233, 180, 82);
+    color: #000000;
+}
+
+.deepControl {
+    margin: 20px;
+
+}
+
+.deep-link {
+    text-decoration: none;
+    color: rgb(243, 213, 157);
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
+.svg {}
+
+.svg-tel {
+    margin: 0px, 5px, 16px, 5px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+    .registration-frame {
+        border: none;
+    }
+
+    .registration-title-p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 447px) {
+
+    .registration-title {
+
+        padding: 15px 40px;
+
+    }
+
+    .registration-title-p {
+        font-size: 15px;
+    }
+}
