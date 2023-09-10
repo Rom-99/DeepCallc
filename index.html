@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="registration-container text-center ">
+        <div class="container">
+            <div class="row">
+                <div class="registration-frame p-0">
+                    <div class="registration-title m-0">
+                        <div class="deep-svg d-flex  align-items-center justify-content-evenly">
+                            <div class="camera-svg">
+                                <img src="./photo/free-icon-cctv-5388763 (2).png" alt="">
+                            </div>
+                            <p class="registration-title-p">Մուտքագրել տվյալները</p>
+                            <div class="camera-svg">
+                                <img src="./photo/free-icon-cctv-camera-3978843 (3).png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" class="registration-form-indent">
+                        <div class="col-md-12">
+                            <input type="text" id="nameInput" placeholder="Անուն" class="registration-input-adress"
+                                required>
+                            <input type="text" id="surnameInput" placeholder="Ազգանուն"
+                                class="registration-input-adress " required>
+                        </div>
+                        <div class="col-md-12 d-flex justify-content-center align-items-center">
+                            <div class="col-md-3">
+                                <label for="morningRate">1-ին հերթ:</label>
+                                <select id="morningRate" class="registration-input-adress">
+                                    <option value="650">650</option>
+                                    <option value="700">700</option>
+                                    <option value="750">750</option>
+                                </select><br>
+                            </div>
+                            <div class="col-md-3">
+
+                                <input type="number" id="morningRatedaysInput" placeholder="1:Օրերի քանակը"
+                                    class="registration-input-adress" required>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="shiftType1">Ժամային գրաֆիկ:</label>
+                                <select id="shiftType1" class="registration-input-adress">
+                                    <option value="12">12-ժամ</option>
+                                    <option value="8">8-ժամ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-12 d-flex justify-content-center align-items-center">
+                            <div class="col-md-3">
+                                <label for="nightRate">2-րդ հերթ:</label>
+                                <select id="nightRate" class="registration-input-adress">
+                                    <option value="700">700</option>
+                                    <option value="700">750</option>
+                                </select><br>
+                            </div>
+                            <div class="col-md-3">
+
+                                <input type="number" id="nightRatedaysInput" placeholder="2:Օրերի քանակը"
+                                    class="registration-input-adress" required>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="shiftType2">Ժամային գրաֆիկ:</label>
+                                <select id="shiftType2" class="registration-input-adress">
+                                    <option value="12">12-ժամ</option>
+                                    <option value="8">8-ժամ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="outputName"></div>
+                        <div id="outputSalary"></div>
+                        <div class="t30">
+                            <label for="checkbox" class="ceko">+30%</label>
+                            <input type="checkbox" id="check30">
+                        </div>
+                        <div class="col-md-12 ">
+                            <button id="resetButton" class="registration-button mb-1">Թարմացնել</button>
+                        </div>
+                        <div class="col-md-12 ">
+                            <button type="submit" id="calcButton" class="registration-button mt-1">Հաշվել</button>
+                        </div>
+                    </form>
+                    <div class="col-md-12 d-flex justify-content-between ">
+                        <div class="deep-link d-flex">
+                            <img src="./photo/Group (1).png" class="svg-tel" alt="#">
+                            <p class="svg"> +374 ( 91 / 93 ) 32-07-94</p>
+                        </div>
+                        <div class="deep-link d-flex">
+                            <a href="http://www.deepcontrol.am/" class="deep-link">
+                                <p> ©DeepControl</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
